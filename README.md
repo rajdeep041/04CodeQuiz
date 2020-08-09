@@ -1,6 +1,11 @@
 ## Rajdeep's JS Code Quiz
 Git Hub Repo : https://github.com/rajdeep041/04CodeQuiz
+
 Deployed Site Url : https://rajdeep041.github.io/04CodeQuiz/
+
+## JS Code Quiz screens (Responsive & Non-Responsive)
+![Non-Responsive](./Assets/Screen%20Shot%202020-08-08%20at%2011.34.46%20PM.png)
+![Responsive](./Assets/Screen%20Shot%202020-08-08%20at%2011.34.54%20PM.png)
 
 ## Description
 This is a quiz for javascript. Below are the acceptance criterias and the user story which was built in this project. 
