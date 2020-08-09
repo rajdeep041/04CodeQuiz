@@ -1,6 +1,6 @@
-#Rajdeep's JS Code Quiz
+## Rajdeep's JS Code Quiz
 Git Hub Repo : https://github.com/rajdeep041/04CodeQuiz
-Deployed Site Url : 
+Deployed Site Url : https://rajdeep041.github.io/04CodeQuiz/
 
 ## Description
 This is a quiz for javascript. Below are the acceptance criterias and the user story which was built in this project. 
