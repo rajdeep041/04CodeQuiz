@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Code Quiz</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz">
+        <h1>Coding Quiz Challenge!</h1>
+      </div>
+      <div
+        class="row justify-content-center border rounded-pill"
+        id="countdown"
+      ></div>
+      <p class="questions">
+        Try to answer the following code-related questions within the time
+        limit. Keep in mind that incorrect answers will penalize your scoretime
+        by ten seconds!
+      </p>
+      <div class="answers"></div>
+      <button id="start" style="background-color: #ff7f50;">
+        Start Quiz
+      </button>
+      <button id="submit" style="background-color: #ff7f50;">
+        Submit Quiz
+      </button>
+      <div id="results"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
