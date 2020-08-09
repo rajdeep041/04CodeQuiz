@@ -68,7 +68,7 @@ myCountdown.start();
 const answerContainers = quizContainer.querySelectorAll(".answers");
 
 // on start, ask questions
-startBtn.addEventListener("click", startBtn);
+startEl.addEventListener("click", startBtn);
 
 // on submit, show results
 submitButton.addEventListener("click", showResults);
