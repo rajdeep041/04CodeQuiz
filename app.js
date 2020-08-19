@@ -90,3 +90,18 @@ var quiz = new Quiz(questions);
 populate();
 
 console.log(quiz.score);
+
+var timeEl = document.querySelector(".time");
+var secondsLeft = 60;
+function setTime() {
+  var timerInterval = setInterval(function () {
+    secondsLeft--;
+    timeEl.textContent = secondsLeft + " seconds left till colorsplosion.";
+
+    if (secondsLeft <= 0) {
+      showScores();
+      clearInterval(timerInterval);
+    }
+  }, 1000);
+}
+setTime();

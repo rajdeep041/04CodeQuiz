@@ -58,11 +58,11 @@ function showResults() {
 }
 
 // Countdown
-var myCountdown = $("#countdown").progressBarTimer({
-  autostart: true,
-  timeLimit: 120,
-});
-myCountdown.start();
+// var myCountdown = $("#countdown").progressBarTimer({
+//   autostart: true,
+//   timeLimit: 120,
+// });
+// myCountdown.start();
 
 // gather answer containers from our quiz
 const answerContainers = quizContainer.querySelectorAll(".answers");
